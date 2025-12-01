@@ -45,9 +45,7 @@ const Footer = () => {
                     {/* Copyright */}
                     <div className="text-center text-slate-400 text-sm">
                         <p className="flex items-center gap-2 justify-center">
-                            © {new Date().getFullYear()} Omar Hassan Elesawy. Built with
-                            <Heart className="w-4 h-4 text-red-500 fill-current" />
-                            using React & Tailwind CSS
+                            © {new Date().getFullYear()} Omar Hassan Elesawy.
                         </p>
                     </div>
                 </div>
