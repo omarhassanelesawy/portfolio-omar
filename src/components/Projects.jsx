@@ -9,6 +9,14 @@ const Projects = () => {
 
     const projects = [
         {
+            title: 'Grocery Price Tracker',
+            description:
+                'Full-stack grocery price tracking application enabling users to scan receipts and monitor price trends across supermarkets. Features AI-powered OCR using Google Gemini API for automatic data extraction, drag-and-drop image upload, and interactive price history charts.',
+            technologies: ['React.js', 'FastAPI', 'Python', 'SQLAlchemy', 'SQLite', 'Google Gemini API', 'Docker', 'Vercel'],
+            link: 'https://prices-tracker-eta.vercel.app/',
+            github: 'https://github.com/omarhassanelesawy/PricesTracker',
+        },
+        {
             title: 'Oigitalization',
             description:
                 'A comprehensive web application for football enthusiasts featuring fantasy leagues and real-time price tracking. Built with Django for robust backend functionality.',
